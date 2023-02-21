@@ -1,18 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .main{
+        border: 1px solid black;
+        width: 50%;
+        margin: 0 auto;
+        background-color: antiquewhite;
+        
+    }
+    input{
+        margin-bottom: 35px;
+        padding-right: 100px;
+    }
+    label{
+        font-size: 25px;
+    }
+    h1{
+        text-align: center;
+    }
 
+</style>
 <body>
-
-            
-    
-
+    <div class="my">
+        <h1>KIỂM TRA THÔNG TIN</h1>
+        <form class="main" action="https://github.com/Tra-My0104/module1-bai1.git">
+            <label >First name</label>
+            <input type="text" name="First name" required><br>
+            <label>Last name</label>
+            <input type="text" name="Last name" required><br>
+            <label>Father name</label>
+            <input type="text" name="Father name" required><br>
+            <label>Date of brith</label>
+            <input type="date" name="Date of birth" required><br>
+            <label>Tel</label>
+            <input type="number" name="Tel" required><br>
+            <label>High school name</label>
+            <input type="text" name="High school name"><br>
+            <label>Pemanment address</label>
+            <input type="text" name="Pemanment address" required><br>
+            <label>Your level</label>          
+            <select name="Your level">
+                <option value="">1st year </option>
+                <option value="">3</option>
+                <option value="">4</option>
+            </select> <br>
+            <label>email</label>
+            <input type="text" name="email"><br>
+            <label>Degree program</label>
+            <select name="Degree program">
+                <option value="">yes</option>
+                <option value="">no</option>
+            </select><br>
+            <input type="submit" name="register" value="register" style="font-size: 20px;margin-left: 200px;">
+        </form>
+    </div>
 </body>
 
 </html>
