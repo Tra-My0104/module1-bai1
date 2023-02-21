@@ -1,53 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./">
-    
+
 </head>
 <style>
-    *{
+    * {
         /* đầu tiên phải reset CSS */
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
-        
-    }
-
-    .header{
-       background-color: tomato;
-       height: 100px;
-    
 
     }
-    .nav{
+
+    .header {
+        background-color: tomato;
+        height: 100px;
+
+
+    }
+
+    .nav {
         background-color: aqua;
         height: 150px;
     }
-    .article{
+
+    .article {
         background-color: rgb(226, 241, 3);
         height: 250px;
         width: 800px;
         float: left;
 
-        
+
     }
-    .aside{
+
+    .aside {
         background-color: palevioletred;
         height: 250px;
 
 
 
     }
-    .footer{
+
+    .footer {
         background-color: brown;
         height: 150px;
     }
-  
 </style>
+
 <body>
     <header class="header">header</header>
     <nav class="nav">nav</nav>
@@ -55,8 +60,16 @@
     <aside class="aside">aside</aside>
 
     <footer class="footer">footer</footer>
-    
+    <form>
+        <label>First name:</label><br />
+        <input type="text" name="first" value="Mickey" /><br />
+        <label>Last name:</label><br />
+        <input type="text" name="last" value="Mouse" /><br /><br />
+        <input type="submit" value="Submit" />
+    </form>
 
-    
+
+
 </body>
+
 </html>
